@@ -4,12 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Duolingo - La mejor manera de aprender idiomas</title>
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/src/style/styles.css">
 </head>
 <body>
   <header>
     <nav>
-      <figure>
+      <figure class="hero-img">
         <img src="./src/static/logo-white.svg" alt="Logo white Duolingo">
       </figure>
     </nav>
@@ -17,111 +18,125 @@
 
   <main>
     <section class="hero">
-      <figure>
-
+      <figure class="section-img">
+        <img src="https://d7mj4aqfscim2.cloudfront.net/images/splash-2014/globe1.svg" alt="World image">
       </figure>
-      <h2>Aprende idiomas gratis y diviertete.</h2>
+      <h1>Aprende idiomas gratis y diviertete.</h1>
       <button class="btn">Empieza</button>
       <button class="btn btn-outline">Ya tengo una cuenta</button>
     </section>
 
     <section class="info">
       <article>
-        <figure>
-          <img src="" alt="Duo jumping image">
+        <figure class="info-img">
+          <img src="https://www.duolingo.com/images/facebook/duo200.png" alt="Duo jumping image">
         </figure>
         <h2>La nueva forma de aprender un idioma.</h2>
-        <span>
+        <p>
           Aprender con Duolingo es divertido y adictivo. Se ganan puntos por respuestas correctas, por competir contrarreloj y por subir de nivel. Nuestras lecciones son eficaces y tenemos <a href="#">prueba de que funcionan.</a>
-          <button class="btn btn-modal">Ve cómo lo hacemos</button>
+        </p>
+        <button class="btn btn-modal">
+          <figure><img src="/src/static/polygon.svg" alt=""></figure> Ve cómo lo hacemos
+        </button>
           
-        </span>
       </article>
       
       <hr>
 
       <article>
-        <figure>
-          <img src="" alt="Computer with duolingo app">
+        <figure class="info-img">
+          <img class="info-img" src="/src/static/game.png" alt="Computer with duolingo app">
         </figure>
-        <h2>Cada lección es como un juego.</h2>
-        <div>
-          <div>
+        <h2 class="text-left">Cada lección es como un juego.</h2>
+        <ul>
+          <li>
             <figure>
-              <img src="" alt="sound icon">
+              <img src="/src/static/icon-3.svg" alt="sound icon">
             </figure>
             <h3>Aprendizaje personalizado</h3>
-            <p>Las lecciones de Duolingo se adaptan a tu estilo de aprendizaje. Los ejercicios estan diseñados a tu medida para ayudarte a aprender y repasar el vocabulario de forma efectiva.</p>
-          </div>
-          <div>
+            <span class="text-left">Las lecciones de Duolingo se adaptan a tu estilo de aprendizaje. Los ejercicios estan diseñados a tu medida para ayudarte a aprender y repasar el vocabulario de forma efectiva.</span>
+          </li>
+          <li>
             <figure>
-              <img src="" alt="done icon">
+              <img src="/src/static/icon-2.svg" alt="done icon">
             </figure>
             <h3>Chequea tu respuesta inmediatamente</h3>
-            <p>Puedes ver tus respuestas correctas al instante. Cuando fallas un ejercicio, te mostramos cómo mejorar rápidamente.</p>
-          </div>
-          <div>
+            <span>Puedes ver tus respuestas correctas al instante. Cuando fallas un ejercicio, te mostramos cómo mejorar rápidamente.</span>
+          </li>
+          <li>
             <figure>
-              <img src="" alt="gem icon">
+              <img src="/src/static/icon-4.svg" alt="gem icon">
             </figure>
             <h3>Mantente motivado con premios</h3>
-            <p>Gana monedas virtuales, desbloquea nuevos niveles y ve tu nivel de fluidez subir mientras aprendes nuevas palabras, frases y gramática.</p>
-          </div>
-          <div>
+            <span>Gana monedas virtuales, desbloquea nuevos niveles y ve tu nivel de fluidez subir mientras aprendes nuevas palabras, frases y gramática.</span>
+          </li>
+          <li>
             <figure>
-              <img src="" alt="flame icon">
+              <img src="/src/static/icon-1.svg" alt="flame icon">
             </figure>
             <h3>Mejora rápidamente</h3>
-            <p>Duolingo funciona. Un estudio comprobó que 34 horas usando Duolingo es equivalente a 1 semestre universitario de aprendizaje de idiomas.</p>
-          </div>
-        </div>
+            <span>Duolingo funciona. Un estudio comprobó que 34 horas usando Duolingo es equivalente a 1 semestre universitario de aprendizaje de idiomas.</span>
+          </li>
+        </ul>
       </article>
 
       <hr>
 
       <article>
-        <figure>
-          <img src="" alt="Duo flying faster">
+        <figure class="info-img">
+          <img src="/src/static/plus.png" alt="Duo flying faster">
         </figure>
         <h2>Mejora tu aprendizaje con Duolingo Plus</h2>
-        <span>En Duolingo puedes aprender idiomas completamente gratis, pero puedes eliminar anuncios y apoyar la educación gratuita con Plus. ¡Te damos los primeros 7 días!</span>
+        <p>En Duolingo puedes aprender idiomas completamente gratis, pero puedes eliminar anuncios y apoyar la educación gratuita con Plus. ¡Te damos los primeros 7 días!</p>
         <button class="btn btn-modal">Más información sobre Duolingo plus</button>
       </article>
       
       <hr>
       
       <article>
-        <figure>
-          <img src="" alt="Duo going to camp">
+        <figure class="info-img">
+          <img src="https://d35aaqx5ub95lt.cloudfront.net/images/duo-traveler.svg" alt="Duo going to camp">
         </figure>
         <h2>Aprende en cualquier lugar y a cualquier hora.</h2>
-        <span>Haz que tus viajes y tiempo libre sean más productivos con la aplicación móvil de Duolingo. Descárgala y ve por qué Apple y Google nos otorgaron sus premios más altos.</span>
-        <div>
+        <p>Haz que tus viajes y tiempo libre sean más productivos con la aplicación móvil de Duolingo. Descárgala y ve por qué Apple y Google nos otorgaron sus premios más altos.</p>
+        <div class="btns">
 
-          <button class="btn btn-app">Más información sobre Duolingo plus</button>
-          <button class="btn btn-app">Más información sobre Duolingo plus</button>
+          <button class="btn btn-app">
+            <figure>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Apple_logo_grey.svg/1200px-Apple_logo_grey.svg.png" alt="Apple store image">
+            </figure>
+            <h5>Descárgalo en el </h5>
+            <h4>Apps store</h4>
+          </button>
+          <button class="btn btn-app">
+            <figure>
+              <img src="https://cdn3.iconfinder.com/data/icons/social-media-logos-glyph-1/2048/5345_-_Google_Play-512.png" alt="Google store image">
+            </figure>
+            <h5>Descárgalo en el </h5>
+            <h4>Apps store</h4>
+          </button>
         </div>
       </article>
       
       <hr>
       
       <article>
-        <figure>
-          <img src="" alt="Stadistics of users">
+        <figure class="info-img">
+          <img src="/src/static/school.png" alt="Stadistics of users">
         </figure>
         <h2>Duolingo para escuelas.</h2>
-        <span>La plataforma de aprendizaje de idiomas más grande a nivel mundial ahora está disponible para las escuelas. Miles de maestros están utilizando Duolingo para mejorar sus clases.</span>
+        <p>La plataforma de aprendizaje de idiomas más grande a nivel mundial ahora está disponible para las escuelas. Miles de maestros están utilizando Duolingo para mejorar sus clases.</p>
         <button class="btn btn-modal">Más información sobre Duolingo plus</button>
       </article>
       
       <hr>
 
       <article>
-        <figure>
-          <img src="" alt="Duo with a cup">
+        <figure class="info-img">
+          <img src="/src/static/test.png" alt="Duo with a cup">
         </figure>
         <h2>Duolingo English Test</h2>
-        <span>Examen estandarizado, al estilo de Duolingo. Sin viajes ni centros de estudio de por medio. Complétalo en menos de una hora y obtén tus resultados en dos días. Aceptado por cientos de universidades en todo el mundo.</span>
+        <p>Examen estandarizado, al estilo de Duolingo. Sin viajes ni centros de estudio de por medio. Complétalo en menos de una hora y obtén tus resultados en dos días. Aceptado por cientos de universidades en todo el mundo.</p>
         <button class="btn btn-modal">Certifica tu dominio de inglés</button>
       </article>
 
@@ -129,32 +144,79 @@
 
     <footer>
 
-      <section class="goodbye">
+      <article class="goodbye">
         <h1>Aprende un idioma con Duolingo.</h1>
         <button class="btn">Empieza</button>
-      </section>
+      </article>
 
-      <section class="links">
-        <div>
-          <h3 class="links-title"></h3>
+      <article class="links">
+        <div class="links-box">
+          <h3 class="links-title">Sobre nosotros</h3>
           <ul>
-            <li><a href="#"></a></li>
+            <li><a href="#">Cursos</a></li>
+            <li><a href="#">Misión</a></li>
+            <li><a href="#">Método de inseñanza</a></li>
+            <li><a href="#">Equipo</a></li>
+            <li><a href="#">Investigación</a></li>
+            <li><a href="#">Incubadora</a></li>
+            <li><a href="#">Trabajo</a></li>
+            <li><a href="#">Prensa</a></li>
           </ul>
         </div>
-        <div>
-          <h3 class="links-title"></h3>
+
+        <div class="links-box">
+          <h3 class="links-title">Products</h3>
           <ul>
-            <li><a href="#"></a></li>
+            <li><a href="#">Duolingo</a></li>
+            <li><a href="#">Duolingo for Schools</a></li>
+            <li><a href="#">Duolingo English Test</a></li>
+            <li><a href="#">Podcast</a></li>
+            <li><a href="#">Stories</a></li>
+            <li><a href="#">Diccionario</a></li>
           </ul>
         </div>
-      </section>
+        
+        <div class="links-box">
+          <h3 class="links-title">Aplicaciones</h3>
+          <ul>
+            <li><a href="#">Duolingo para Android</a></li>
+            <li><a href="#">Duolingo para iOS</a></li>
+          </ul>
+        </div>
+
+        <div class="links-box">
+          <h3 class="links-title">Social</h3>
+          <ul>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">YouTube</a></li>
+          </ul>
+        </div>
+
+      </article>
       
-      <section class="languages">
-        <h3>Idioma de pagina</h3>
-        <ul>
-          <li><a href="#"></a></li>
-        </ul>
-      </section>
+      <hr>
+
+      <article class="links">
+        <h3>Idioma de la página:</h3>
+        <ol>
+          <li><a href="#">English</a></li>
+          <li><a href="#">Romana</a></li>
+          <li><a href="#">Polski</a></li>
+          <li><a href="#">Arabe</a></li>
+          <li><a href="#">Cestina</a></li>
+          <li><a href="#">Deutsch</a></li>
+          <li><a href="#">Francais</a></li>
+          <li><a href="#">Magyar</a></li>
+          <li><a href="#">Bahasa Indonesia</a></li>
+          <li><a href="#">Italiano</a></li>
+          <li><a href="#">Neterlands</a></li>
+          <li><a href="#">Portugues</a></li>
+          <li><a href="#">Turkce</a></li>
+          <li><a href="#">Español</a></li>
+        </ol>
+      </article>
 
     </footer>
       
