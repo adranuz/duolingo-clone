@@ -1,4 +1,3 @@
-@import url('./animations.css');
 :root {
   --blue: #225390;
   --blue1: #2c65aa;
@@ -19,11 +18,17 @@
   --light-blue: #1BB0F6;
 }
 
+/* ------- External -------- */
+@import url('./animations.css');
+@import url('./modal.css');
+
 /* ------- General -------- */
 body {
   margin: 0;
   font-family: 'Comic Neue', cursive,'Courier New', Courier, monospace;
+  position: relative;
 }
+
 nav{
   background-color: var(--blue);
   align-items: center;
@@ -99,8 +104,8 @@ img {
 .btn:active {
   box-shadow: none;
   animation-name: example;
-  animation-duration: 0s;
-  animation-fill-mode: both;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
 }
 .btn-outline {
   background-color: var(--blue);
