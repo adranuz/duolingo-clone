@@ -1,4 +1,4 @@
-# duolingo-clone
+# Duolingo clone
 This project is for a clone of the duolingo landing page. Just in front.
 
 ## Guidelines
