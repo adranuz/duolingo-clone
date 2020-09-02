@@ -40,15 +40,29 @@ This project is for a clone of the duolingo landing page. Just in front.
 
 ### Cemantic HTML
 ```
-<header />
+<header>
+  <nav>
+    <figure/>
+  </nav>
+</header>
+
 <main>
   <hero>
+    <figure/>
+    <text/>
+    <cta/>
+  </hero>
+
   <article x6>
+    <figure/>
+    <text/>
+    <btn/>
+  </article>
+
 </main>
 <footer>
   <last-cta>
-  <links>
-  <languages>
+  <about-links>
+  <languages-links>
 </footer>
-asdas
 ```
