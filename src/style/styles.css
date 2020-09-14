@@ -288,10 +288,13 @@ footer .links {
 }
 footer .links .links-box {
   margin-right: 20px;
-  min-width: 140px;
+  max-width: 140px;
 }
+
 footer .links:nth-of-type(3) {
   display: flex;
+  flex-direction: column;
+
 }
 footer .links:nth-of-type(3) h3 {
   font-size: 15px;
