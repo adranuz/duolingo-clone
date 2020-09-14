@@ -68,6 +68,7 @@ figure {
 p {
   font-size: 17px;
   color: var(--grey2);
+  max-width: 500px;
 }
 a {
   color: var(--grey1);
@@ -78,6 +79,9 @@ img {
   width: inherit;
   padding: 0;
   margin: 0;
+}
+ul {
+  width: 500px;
 }
 .btns {
   display: flex;
@@ -228,6 +232,11 @@ span {
   line-height : 22px;
 }
 h3 {
+  text-align: left; 
+}
+.text-left {
+  margin-top: 30px;
+  min-width: 500px;
   text-align: left; 
 }
 
